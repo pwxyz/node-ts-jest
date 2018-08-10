@@ -92,5 +92,5 @@ fs.writeFile('test.json', str, err =>{
   if(err){
     console.log(err)
   }
-  else console.log('success')
+  else console.log('success ')
 })
