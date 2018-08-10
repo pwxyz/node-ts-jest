@@ -1,0 +1,54 @@
+{
+  "status": {
+    "type": "integer",
+    "description": 1
+  },
+  "message": {
+    "type": "string",
+    "description": "success"
+  },
+  "payload": {
+    "type": "object",
+    "properties": {
+      "total": {
+        "type": "integer",
+        "description": 97
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "threate": {
+            "type": "string",
+            "description": "asssf"
+          },
+          "name": {
+            "type": "string",
+            "description": "das"
+          },
+          "age": {
+            "type": "integer",
+            "description": 12
+          },
+          "detail": {
+            "type": "array",
+            "items": {
+              "aa": {
+                "type": "string",
+                "description": "cc"
+              },
+              "bb": {
+                "type": "object",
+                "properties": {
+                  "cc": {
+                    "type": "string",
+                    "description": "xdf"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
